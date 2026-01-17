@@ -1,5 +1,5 @@
 {
-  "id": " codec-detection",
+  "id": "codec-detection",
   "category": "Core",
   "title": "Codec Compatibility Detection",
   "description": "Detect browser codec support for recording and playback. Warn users about incompatible formats and suggest alternatives.",
