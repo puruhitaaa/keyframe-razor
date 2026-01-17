@@ -1,0 +1,14 @@
+{
+  "id": "performance-metrics",
+  "category": "Core",
+  "title": "Performance Monitoring",
+  "description": "Track and display processing times for detection and export operations. Help identify performance bottlenecks.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "web-worker-processor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.313Z",
+  "updatedAt": "2026-01-17T00:26:14.313Z"
+}

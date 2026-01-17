@@ -1,0 +1,14 @@
+{
+  "id": "version-history",
+  "category": "Database",
+  "title": "Project Version History",
+  "description": "Maintain version history for projects with ability to restore previous versions. Store snapshots in Convex.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "project-autosave"
+  ],
+  "createdAt": "2026-01-17T00:26:14.344Z",
+  "updatedAt": "2026-01-17T00:26:14.344Z"
+}

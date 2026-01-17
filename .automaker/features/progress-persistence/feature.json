@@ -1,0 +1,15 @@
+{
+  "id": "progress-persistence",
+  "category": "Core",
+  "title": "Processing Progress Persistence",
+  "description": "Save processing progress for long operations. Allow resuming after page refresh or browser close.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "complex",
+  "dependencies": [
+    "processing-queue",
+    "project-autosave"
+  ],
+  "createdAt": "2026-01-17T00:26:14.334Z",
+  "updatedAt": "2026-01-17T00:26:14.334Z"
+}

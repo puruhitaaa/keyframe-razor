@@ -1,0 +1,14 @@
+{
+  "id": "drag-drop-segments",
+  "category": "UI",
+  "title": "Drag and Drop Segments",
+  "description": "Enable dragging segments to reorder them in the list. Useful for prioritizing which segments to review first.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-list-view"
+  ],
+  "createdAt": "2026-01-17T00:26:14.325Z",
+  "updatedAt": "2026-01-17T00:26:14.325Z"
+}

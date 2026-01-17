@@ -1,0 +1,14 @@
+{
+  "id": "project-delete",
+  "category": "Core",
+  "title": "Project Deletion",
+  "description": "Implement project deletion with confirmation dialog. Clean up associated IndexedDB entries and Convex documents.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "project-list-page"
+  ],
+  "createdAt": "2026-01-17T00:26:14.245Z",
+  "updatedAt": "2026-01-17T00:26:14.245Z"
+}

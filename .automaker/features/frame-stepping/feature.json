@@ -1,0 +1,14 @@
+{
+  "id": "frame-stepping",
+  "category": "UI",
+  "title": "Frame-by-Frame Navigation",
+  "description": "Add frame-by-frame forward and backward buttons. Useful for precise cutting at exact frame boundaries.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "video-player-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.322Z",
+  "updatedAt": "2026-01-17T00:26:14.322Z"
+}

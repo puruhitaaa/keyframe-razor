@@ -1,0 +1,14 @@
+{
+  "id": "segment-transition-effects",
+  "category": "Core",
+  "title": "Cut Transition Effects",
+  "description": "Add optional transition effects (crossfade, jump cut) at segment cut points for smoother video flow.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "video-segment-cutter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.293Z",
+  "updatedAt": "2026-01-17T00:26:14.293Z"
+}

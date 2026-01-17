@@ -1,0 +1,14 @@
+{
+  "id": "project-list-page",
+  "category": "UI",
+  "title": "Project List Page",
+  "description": "Create a page listing all user projects with thumbnails, metadata, last edited dates, and quick action buttons.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "project-creation-flow"
+  ],
+  "createdAt": "2026-01-17T00:26:14.244Z",
+  "updatedAt": "2026-01-17T00:26:14.244Z"
+}

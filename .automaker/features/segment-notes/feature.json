@@ -1,0 +1,14 @@
+{
+  "id": "segment-notes",
+  "category": "UI",
+  "title": "Segment Notes",
+  "description": "Allow adding notes to specific segments. Useful for collaborative editing or reminding why certain segments were kept/removed.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "segment-list-view"
+  ],
+  "createdAt": "2026-01-17T00:26:14.308Z",
+  "updatedAt": "2026-01-17T00:26:14.308Z"
+}

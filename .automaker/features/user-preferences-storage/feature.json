@@ -1,0 +1,12 @@
+{
+  "id": "user-preferences-storage",
+  "category": "Database",
+  "title": "User Preferences Storage",
+  "description": "Store user preferences (theme, default settings, recent projects) in Convex. Sync across devices for authenticated users.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.283Z",
+  "updatedAt": "2026-01-17T00:26:14.283Z"
+}

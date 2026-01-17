@@ -1,0 +1,14 @@
+{
+  "id": "speech-recognition-integration",
+  "category": "Core",
+  "title": "Speech Recognition Integration",
+  "description": "Integrate Web Speech API for speech-to-text transcription. Handle browser compatibility and provide graceful fallbacks.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "complex",
+  "dependencies": [
+    "audio-context-manager"
+  ],
+  "createdAt": "2026-01-17T00:26:14.215Z",
+  "updatedAt": "2026-01-17T00:26:14.215Z"
+}

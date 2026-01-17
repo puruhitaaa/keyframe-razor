@@ -1,0 +1,12 @@
+{
+  "id": "security-auditing",
+  "category": "Authentication",
+  "title": "Security Headers & CSP",
+  "description": "Configure Content Security Policy and other security headers. Protect against XSS and injection attacks.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.358Z",
+  "updatedAt": "2026-01-17T00:26:14.358Z"
+}

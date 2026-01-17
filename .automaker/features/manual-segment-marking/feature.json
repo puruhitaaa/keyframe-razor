@@ -1,0 +1,14 @@
+{
+  "id": "manual-segment-marking",
+  "category": "UI",
+  "title": "Manual Segment Marking",
+  "description": "Allow users to manually select and mark segments for removal by dragging on timeline or setting start/end points.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "timeline-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.302Z",
+  "updatedAt": "2026-01-17T00:26:14.302Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "timeline-scrubbing",
+  "category": "UI",
+  "title": "Timeline Scrubbing",
+  "description": "Enable dragging on timeline to seek video position. Show live preview frame during scrub for better precision.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "timeline-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.298Z",
+  "updatedAt": "2026-01-17T00:26:14.299Z"
+}

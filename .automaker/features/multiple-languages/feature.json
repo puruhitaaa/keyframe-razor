@@ -1,0 +1,14 @@
+{
+  "id": "multiple-languages",
+  "category": "Core",
+  "title": "Multi-Language Filler Words",
+  "description": "Support filler word detection for multiple languages. Include presets for English, Spanish, French, German, etc.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "filler-word-list"
+  ],
+  "createdAt": "2026-01-17T00:26:14.300Z",
+  "updatedAt": "2026-01-17T00:26:14.300Z"
+}

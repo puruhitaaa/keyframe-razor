@@ -1,0 +1,14 @@
+{
+  "id": "undo-redo-system",
+  "category": "UI",
+  "title": "Undo/Redo System",
+  "description": "Implement undo/redo functionality for segment selection and removal actions. Track state changes history.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-selection"
+  ],
+  "createdAt": "2026-01-17T00:26:14.230Z",
+  "updatedAt": "2026-01-17T00:26:14.230Z"
+}

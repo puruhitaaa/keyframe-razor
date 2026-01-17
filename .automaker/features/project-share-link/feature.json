@@ -1,0 +1,14 @@
+{
+  "id": "project-share-link",
+  "category": "Authentication",
+  "title": "Project Share Link",
+  "description": "Generate shareable links for projects using Convex. Store sharing permissions and access control in backend.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "project-list-page"
+  ],
+  "createdAt": "2026-01-17T00:26:14.250Z",
+  "updatedAt": "2026-01-17T00:26:14.250Z"
+}

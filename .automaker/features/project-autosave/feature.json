@@ -1,0 +1,15 @@
+{
+  "id": "project-autosave",
+  "category": "Database",
+  "title": "Project Auto-Save",
+  "description": "Implement auto-save for project state including selected segments, settings, and processing results to IndexedDB.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "project-creation-flow",
+    "indexeddb-video-storage"
+  ],
+  "createdAt": "2026-01-17T00:26:14.243Z",
+  "updatedAt": "2026-01-17T00:26:14.243Z"
+}

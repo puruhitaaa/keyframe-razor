@@ -1,0 +1,14 @@
+{
+  "id": "preview-cut-video",
+  "category": "Core",
+  "title": "Cut Video Preview",
+  "description": "Generate a real-time preview of the edited video with segments removed. Allow playback before committing to export.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "complex",
+  "dependencies": [
+    "video-segment-cutter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.229Z",
+  "updatedAt": "2026-01-17T00:26:14.229Z"
+}

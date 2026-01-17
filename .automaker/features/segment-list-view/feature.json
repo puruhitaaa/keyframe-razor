@@ -1,0 +1,14 @@
+{
+  "id": "segment-list-view",
+  "category": "UI",
+  "title": "Detected Segments List View",
+  "description": "Create a scrollable list showing all detected segments with timestamps, duration, and type (silence/filler). Include preview buttons.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-marker-display"
+  ],
+  "createdAt": "2026-01-17T00:26:14.224Z",
+  "updatedAt": "2026-01-17T00:26:14.224Z"
+}

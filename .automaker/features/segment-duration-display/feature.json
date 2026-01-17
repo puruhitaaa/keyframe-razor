@@ -1,0 +1,14 @@
+{
+  "id": "segment-duration-display",
+  "category": "UI",
+  "title": "Total Removed Duration Display",
+  "description": "Show total duration of all selected segments for removal. Display time saved from original video.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "segment-selection"
+  ],
+  "createdAt": "2026-01-17T00:26:14.332Z",
+  "updatedAt": "2026-01-17T00:26:14.332Z"
+}

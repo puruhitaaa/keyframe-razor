@@ -1,0 +1,14 @@
+{
+  "id": "keyboard-shortcuts",
+  "category": "UI",
+  "title": "Keyboard Shortcuts",
+  "description": "Implement keyboard shortcuts for common actions (space for play/pause, arrows for seeking, delete for segments, etc.).",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "video-player-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.256Z",
+  "updatedAt": "2026-01-17T00:26:14.256Z"
+}

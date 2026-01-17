@@ -1,0 +1,14 @@
+{
+  "id": "language-detection",
+  "category": "Core",
+  "title": "Auto Language Detection",
+  "description": "Automatically detect video language from transcription. Apply appropriate filler word list for detected language.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "multiple-languages"
+  ],
+  "createdAt": "2026-01-17T00:26:14.301Z",
+  "updatedAt": "2026-01-17T00:26:14.301Z"
+}

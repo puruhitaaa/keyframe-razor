@@ -1,0 +1,14 @@
+{
+  "id": "offline-indicator",
+  "category": "UI",
+  "title": "Online/Offline Status Indicator",
+  "description": "Show connection status in header when offline. Display warning banner for features requiring Convex backend.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "service-worker-registration"
+  ],
+  "createdAt": "2026-01-17T00:26:14.265Z",
+  "updatedAt": "2026-01-17T00:26:14.265Z"
+}

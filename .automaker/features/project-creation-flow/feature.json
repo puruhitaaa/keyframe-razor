@@ -1,0 +1,12 @@
+{
+  "id": "project-creation-flow",
+  "category": "UI",
+  "title": "Project Creation Flow",
+  "description": "Implement a project creation wizard that collects project name, description, and uploaded video. Store project metadata in Convex.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.199Z",
+  "updatedAt": "2026-01-17T00:26:14.199Z"
+}

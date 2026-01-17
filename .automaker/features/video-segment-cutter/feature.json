@@ -1,0 +1,15 @@
+{
+  "id": "video-segment-cutter",
+  "category": "Core",
+  "title": "Video Segment Cutter",
+  "description": "Implement logic to cut out selected segments from video by creating a new MediaStream without those timestamp ranges.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "complex",
+  "dependencies": [
+    "audio-extractor",
+    "video-metadata-extractor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.228Z",
+  "updatedAt": "2026-01-17T00:26:14.228Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "feature-flags",
+  "category": "Core",
+  "title": "Remote Feature Flags",
+  "description": "Implement remote feature flag system via Convex. Enable/disable features without app updates.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.363Z",
+  "updatedAt": "2026-01-17T00:26:14.363Z"
+}

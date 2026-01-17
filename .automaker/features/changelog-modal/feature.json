@@ -1,0 +1,12 @@
+{
+  "id": "changelog-modal",
+  "category": "UI",
+  "title": "Version Changelog",
+  "description": "Show changelog modal after updates highlighting new features and improvements. Store version history.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.361Z",
+  "updatedAt": "2026-01-17T00:26:14.361Z"
+}

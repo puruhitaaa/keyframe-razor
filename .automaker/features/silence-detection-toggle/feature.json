@@ -1,0 +1,14 @@
+{
+  "id": "silence-detection-toggle",
+  "category": "UI",
+  "title": "Silence Detection Toggle",
+  "description": "Add a toggle switch in the UI to enable/disable silence detection. Persist user preference to IndexedDB or Convex.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [
+    "silence-detection-engine"
+  ],
+  "createdAt": "2026-01-17T00:26:14.211Z",
+  "updatedAt": "2026-01-17T00:26:14.211Z"
+}

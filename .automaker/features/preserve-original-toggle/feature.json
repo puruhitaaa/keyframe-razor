@@ -1,0 +1,14 @@
+{
+  "id": "preserve-original-toggle",
+  "category": "UI",
+  "title": "Preserve Original Toggle",
+  "description": "Add option to keep original unedited video alongside edited version. Allow comparison and re-editing.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "preview-cut-video"
+  ],
+  "createdAt": "2026-01-17T00:26:14.294Z",
+  "updatedAt": "2026-01-17T00:26:14.294Z"
+}

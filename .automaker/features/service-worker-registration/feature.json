@@ -1,0 +1,12 @@
+{
+  "id": "service-worker-registration",
+  "category": "Core",
+  "title": "Service Worker Registration",
+  "description": "Register service worker for PWA functionality. Handle update notifications and offline capability detection.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.264Z",
+  "updatedAt": "2026-01-17T00:26:14.264Z"
+}

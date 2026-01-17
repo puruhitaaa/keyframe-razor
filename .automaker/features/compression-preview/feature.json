@@ -1,0 +1,14 @@
+{
+  "id": "compression-preview",
+  "category": "UI",
+  "title": "Export Compression Preview",
+  "description": "Show estimated file size before export based on selected quality settings. Display size comparison with original.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "export-quality-presets"
+  ],
+  "createdAt": "2026-01-17T00:26:14.314Z",
+  "updatedAt": "2026-01-17T00:26:14.314Z"
+}

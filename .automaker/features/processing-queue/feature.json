@@ -1,0 +1,14 @@
+{
+  "id": "processing-queue",
+  "category": "Core",
+  "title": "Background Processing Queue",
+  "description": "Create a queue system for heavy operations like silence detection and transcription. Process items sequentially to avoid blocking UI.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "complex",
+  "dependencies": [
+    "silence-detection-engine"
+  ],
+  "createdAt": "2026-01-17T00:26:14.252Z",
+  "updatedAt": "2026-01-17T00:26:14.252Z"
+}

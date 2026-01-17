@@ -1,0 +1,14 @@
+{
+  "id": "video-only-exporter",
+  "category": "Core",
+  "title": "Video-Only Exporter",
+  "description": "Export video without audio track. Useful for creating silent video assets or adding custom audio later.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "video-segment-cutter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.238Z",
+  "updatedAt": "2026-01-17T00:26:14.238Z"
+}

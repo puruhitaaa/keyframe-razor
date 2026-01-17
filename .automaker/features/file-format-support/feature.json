@@ -1,0 +1,14 @@
+{
+  "id": "file-format-support",
+  "category": "Core",
+  "title": "Extended Format Support",
+  "description": "Add support for additional video and audio formats. Handle codec compatibility and provide format conversion.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "video-file-validator"
+  ],
+  "createdAt": "2026-01-17T00:26:14.340Z",
+  "updatedAt": "2026-01-17T00:26:14.340Z"
+}

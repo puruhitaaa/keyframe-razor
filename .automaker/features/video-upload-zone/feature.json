@@ -1,0 +1,12 @@
+{
+  "id": "video-upload-zone",
+  "category": "Core",
+  "title": "Video Upload Drop Zone",
+  "description": "Create a drag-and-drop upload zone component that accepts video files. Validate file types and size limits on the client side before processing.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.195Z",
+  "updatedAt": "2026-01-17T00:26:14.195Z"
+}

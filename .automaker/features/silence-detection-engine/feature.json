@@ -1,0 +1,14 @@
+{
+  "id": "silence-detection-engine",
+  "category": "Core",
+  "title": "Silence Detection Engine",
+  "description": "Create configurable silence detection using amplitude thresholds. Identify segments with audio below threshold for minimum durations.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "amplitude-analyzer"
+  ],
+  "createdAt": "2026-01-17T00:26:14.209Z",
+  "updatedAt": "2026-01-17T00:26:14.209Z"
+}

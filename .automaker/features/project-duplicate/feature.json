@@ -1,0 +1,14 @@
+{
+  "id": "project-duplicate",
+  "category": "Core",
+  "title": "Project Duplication",
+  "description": "Allow users to duplicate projects with all settings and segment selections. Create new project ID with copied data.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "project-list-page"
+  ],
+  "createdAt": "2026-01-17T00:26:14.248Z",
+  "updatedAt": "2026-01-17T00:26:14.248Z"
+}

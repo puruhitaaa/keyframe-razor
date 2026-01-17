@@ -1,0 +1,14 @@
+{
+  "id": "subtitles-support",
+  "category": "Core",
+  "title": "Subtitle/Caption Support",
+  "description": "Generate subtitles from transcription and embed in exported video. Support SRT import/export.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "speech-recognition-integration"
+  ],
+  "createdAt": "2026-01-17T00:26:14.318Z",
+  "updatedAt": "2026-01-17T00:26:14.318Z"
+}

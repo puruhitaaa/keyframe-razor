@@ -1,0 +1,14 @@
+{
+  "id": "video-metadata-extractor",
+  "category": "Core",
+  "title": "Video Metadata Extractor",
+  "description": "Extract video metadata including duration, dimensions, codec information, and audio track details using HTML5 video element APIs.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "video-file-validator"
+  ],
+  "createdAt": "2026-01-17T00:26:14.197Z",
+  "updatedAt": "2026-01-17T00:26:14.197Z"
+}

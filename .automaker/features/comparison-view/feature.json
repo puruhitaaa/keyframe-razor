@@ -1,0 +1,14 @@
+{
+  "id": "comparison-view",
+  "category": "UI",
+  "title": "Before/After Comparison",
+  "description": "Create side-by-side or toggle comparison view between original and edited video. Preview changes before export.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "preview-cut-video"
+  ],
+  "createdAt": "2026-01-17T00:26:14.333Z",
+  "updatedAt": "2026-01-17T00:26:14.333Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "indexeddb-video-storage",
+  "category": "Database",
+  "title": "IndexedDB Video Storage",
+  "description": "Create IndexedDB schema and wrapper functions for storing uploaded video files as Blobs. Support chunked storage for large files.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.198Z",
+  "updatedAt": "2026-01-17T00:26:14.198Z"
+}

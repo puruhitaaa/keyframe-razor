@@ -1,0 +1,14 @@
+{
+  "id": "timeline-component",
+  "category": "UI",
+  "title": "Video Timeline Component",
+  "description": "Create an interactive timeline visualization showing the full video duration with current position indicator and timecode display.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "video-metadata-extractor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.200Z",
+  "updatedAt": "2026-01-17T00:26:14.200Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "export-quality-presets",
+  "category": "Core",
+  "title": "Export Quality Presets",
+  "description": "Provide quality presets (low, medium, high, ultra) for export. Configure bitrate, resolution, and format options per preset.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "export-options-modal"
+  ],
+  "createdAt": "2026-01-17T00:26:14.286Z",
+  "updatedAt": "2026-01-17T00:26:14.286Z"
+}

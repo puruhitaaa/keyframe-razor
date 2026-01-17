@@ -1,0 +1,14 @@
+{
+  "id": "batch-export",
+  "category": "Core",
+  "title": "Batch Export Multiple Projects",
+  "description": "Enable selecting multiple projects and exporting them all at once. Queue exports and process sequentially.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.290Z",
+  "updatedAt": "2026-01-17T00:26:14.290Z"
+}

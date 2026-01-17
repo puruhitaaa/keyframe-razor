@@ -1,0 +1,12 @@
+{
+  "id": "video-player-component",
+  "category": "UI",
+  "title": "Video Player Component",
+  "description": "Build a custom video player component with play/pause, seek, volume controls, and fullscreen. Use shadcn/ui button components.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.200Z",
+  "updatedAt": "2026-01-17T00:26:14.200Z"
+}

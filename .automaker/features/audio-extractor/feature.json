@@ -1,0 +1,15 @@
+{
+  "id": "audio-extractor",
+  "category": "Core",
+  "title": "Audio Track Extractor",
+  "description": "Extract audio data from uploaded video files using Web Audio API AudioContext. Decode audio data for analysis and processing.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "audio-context-manager",
+    "video-metadata-extractor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.203Z",
+  "updatedAt": "2026-01-17T00:26:14.203Z"
+}

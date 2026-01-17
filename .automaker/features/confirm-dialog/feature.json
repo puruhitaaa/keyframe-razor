@@ -1,0 +1,12 @@
+{
+  "id": "confirm-dialog",
+  "category": "UI",
+  "title": "Confirmation Dialog Component",
+  "description": "Create reusable confirmation dialog using shadcn/ui alert dialog. Use for destructive actions like delete and clear cache.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.275Z",
+  "updatedAt": "2026-01-17T00:26:14.275Z"
+}

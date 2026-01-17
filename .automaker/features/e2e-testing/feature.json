@@ -1,0 +1,12 @@
+{
+  "id": "e2e-testing",
+  "category": "Core",
+  "title": "End-to-End Testing",
+  "description": "Set up Playwright for E2E testing of critical user flows. Test upload, edit, and export workflows.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.370Z",
+  "updatedAt": "2026-01-17T00:26:14.370Z"
+}

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project_specification>
+  <project_name>Keyframe Razor</project_name>
+
+  <overview>
+    Keyframe Razor is a performant, cache-utilizing Progressive Web App (PWA) designed as a video editing application that runs entirely in the browser. The app enables users to edit videos with the ability to output video with audio, audio-only, or video-only exports. Its core innovation includes intelligent filler word detection and prolonged silence detection systems that are toggleable and automatically remove those sections for an improved viewing experience. The application is built to work offline and leverages modern browser technologies including IndexedDB and Web APIs for client-side video processing, ensuring performance-friendly operations without server-side dependencies.
+  </overview>
+
+  <technology_stack>
+    <technology>Next.js 16.1.1</technology>
+    <technology>React 19.2.3</technology>
+    <technology>TypeScript 5.x</technology>
+    <technology>TailwindCSS 4.1.10</technology>
+    <technology>shadcn/ui (Radix UI Mira theme)</technology>
+    <technology>Convex (Backend-as-a-Service)</technology>
+    <technology>Clerk (Authentication)</technology>
+    <technology>Turborepo (Monorepo build system)</technology>
+    <technology>pnpm 10.28.0 (Package manager)</technology>
+    <technology>next-themes (Dark/Light mode)</technology>
+    <technology>Lucide React (Icons)</technology>
+    <technology>Sonner (Toast notifications)</technology>
+    <technology>@tanstack/react-form (Form management)</technology>
+    <technology>Oxlint &amp; Oxfmt (Linting &amp; Formatting)</technology>
+    <technology>React Compiler (Experimental optimization)</technology>
+    <technology>IndexedDB (Client-side storage)</technology>
+    <technology>Web Audio API &amp; MediaRecorder APIs (Video processing)</technology>
+    <technology>Service Worker / PWA (Offline support)</technology>
+    <technology>OKLCH color space (Modern color system)</technology>
+  </technology_stack>
+
+  <core_capabilities>
+    <capability>Progressive Web App (PWA) with offline functionality</capability>
+    <capability>Browser-based video editing and processing</capability>
+    <capability>Audio-only export capability</capability>
+    <capability>Video-only export capability</capability>
+    <capability>Video with audio export</capability>
+    <capability>Intelligent filler word detection (auto-removal)</capability>
+    <capability>Prolonged silence/pause detection (auto-removal)</capability>
+    <capability>Toggleable detection systems</capability>
+    <capability>Client-side caching with IndexedDB</capability>
+    <capability>Performance-optimized video processing</capability>
+    <capability>User authentication via Clerk</capability>
+    <capability>Real-time data synchronization via Convex</capability>
+    <capability>Dark/Light theme support</capability>
+    <capability>Responsive design with mobile-first approach</capability>
+    <capability>Type-safe development with TypeScript</capability>
+    <capability>Monorepo architecture for scalability</capability>
+  </core_capabilities>
+
+  <implemented_features>
+    <feature>
+      <name>Next.js Application Setup</name>
+      <description>Fully configured Next.js 16 application with React 19, TypeScript, and typed routes enabled</description>
+      <file_locations>
+        <location>apps/web/next.config.ts</location>
+        <location>apps/web/tsconfig.json</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Progressive Web App (PWA) Configuration</name>
+      <description>PWA manifest configured with app icons, standalone display mode, and theme colors for installable web experience</description>
+      <file_locations>
+        <location>apps/web/src/app/manifest.ts</location>
+        <location>apps/web/public/favicon/site.webmanifest</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Authentication System</name>
+      <description>Clerk-based authentication with JWT integration to Convex backend, including sign-in, user management, and protected routes</description>
+      <file_locations>
+        <location>apps/web/src/app/layout.tsx</location>
+        <location>apps/web/src/middleware.ts</location>
+        <location>packages/backend/convex/auth.config.ts</location>
+        <location>apps/web/src/app/dashboard/page.tsx</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Convex Backend Integration</name>
+      <description>Convex backend-as-a-service configured with health check endpoints and private data queries, ready for real-time data synchronization</description>
+      <file_locations>
+        <location>packages/backend/convex/schema.ts</location>
+        <location>packages/backend/convex/convex.config.ts</location>
+        <location>packages/backend/convex/healthCheck.ts</location>
+        <location>packages/backend/convex/privateData.ts</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>UI Component Library</name>
+      <description>shadcn/ui components with Radix UI Mira theme including buttons, cards, inputs, checkboxes, dropdowns, labels, skeletons, and toast notifications</description>
+      <file_locations>
+        <location>apps/web/src/components/ui/button.tsx</location>
+        <location>apps/web/src/components/ui/card.tsx</location>
+        <location>apps/web/src/components/ui/input.tsx</location>
+        <location>apps/web/src/components/ui/checkbox.tsx</location>
+        <location>apps/web/src/components/ui/dropdown-menu.tsx</location>
+        <location>apps/web/src/components/ui/sonner.tsx</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Theme Management</name>
+      <description>Dark/light/system theme toggle with next-themes integration, including OKLCH-based color system for consistent theming</description>
+      <file_locations>
+        <location>apps/web/src/components/theme-provider.tsx</location>
+        <location>apps/web/src/components/mode-toggle.tsx</location>
+        <location>apps/web/src/index.css</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Responsive Layout</name>
+      <description>Responsive application layout with header navigation, proper font configuration (Geist Sans &amp; Mono), and mobile-first design</description>
+      <file_locations>
+        <location>apps/web/src/app/layout.tsx</location>
+        <location>apps/web/src/components/header.tsx</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Environment Configuration</name>
+      <description>Type-safe environment variable management with Zod validation for Convex URL and Clerk keys</description>
+      <file_locations>
+        <location>packages/env/src/web.ts</location>
+        <location>apps/web/src/middleware.ts</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Monorepo Architecture</name>
+      <description>Turborepo-based monorepo with workspace packages for backend, config, and environment management</description>
+      <file_locations>
+        <location>turbo.json</location>
+        <location>pnpm-workspace.yaml</location>
+        <location>package.json</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Code Quality Tools</name>
+      <description>Oxlint and Oxfmt configured for linting and formatting with comprehensive rule sets for TypeScript and React best practices</description>
+      <file_locations>
+        <location>.oxlintrc.json</location>
+        <location>.oxfmtrc.json</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Dashboard with Authentication</name>
+      <description>Protected dashboard page that displays user information and private data, accessible only to authenticated users</description>
+      <file_locations>
+        <location>apps/web/src/app/dashboard/page.tsx</location>
+      </file_locations>
+    </feature>
+    <feature>
+      <name>Home Page with API Status</name>
+      <description>Landing page with ASCII art logo and real-time Convex backend connection status indicator</description>
+      <file_locations>
+        <location>apps/web/src/app/page.tsx</location>
+      </file_locations>
+    </feature>
+  </implemented_features>
+
+  <additional_requirements>
+    <requirement>Node.js 20+ for development</requirement>
+    <requirement>pnpm 10.28.0 as package manager</requirement>
+    <requirement>Convex project deployment (setup via `pnpm run dev:setup`)</requirement>
+    <requirement>Clerk authentication configuration with JWT template</requirement>
+    <requirement>Environment variables: NEXT_PUBLIC_CONVEX_URL, NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_JWT_ISSUER_DOMAIN</requirement>
+    <requirement>Browser with IndexedDB support for offline functionality</requirement>
+    <requirement>Browser with Web Audio API and MediaRecorder API support for video processing</requirement>
+    <requirement>Modern browser with Service Worker support for PWA functionality</requirement>
+    <requirement>Build outputs: .next directory for production deployment</requirement>
+    <requirement>TypeScript strict mode enabled</requirement>
+    <requirement>ES2017+ target for broad browser compatibility with modern features</requirement>
+  </additional_requirements>
+
+  <development_guidelines>
+    <guideline>Use TypeScript strict mode with no unchecked indexed access, no unused locals/parameters</guideline>
+    <guideline>Follow React 19 patterns with React Compiler enabled for optimization</guideline>
+    <guideline>Implement all video processing on the client-side using Web APIs to avoid server costs</guideline>
+    <guideline>Use IndexedDB for caching video data and processing results to enable offline functionality</guideline>
+    <guideline>Leverage Service Worker for PWA offline capabilities and asset caching</guideline>
+    <guideline>Use Convex for real-time data synchronization and user state management (not video storage)</guideline>
+    <guideline>Implement performance monitoring and optimization for video processing operations</guideline>
+    <guideline>Follow mobile-first responsive design principles with TailwindCSS utilities</guideline>
+    <guideline>Use OKLCH color space for consistent theming across light and dark modes</guideline>
+    <guideline>Run `pnpm run check` before commits to ensure code quality with Oxlint and Oxfmt</guideline>
+    <guideline>Use workspace protocol (workspace:*) for internal package dependencies</guideline>
+    <guideline>Follow monorepo conventions with separate apps and packages directories</guideline>
+    <guideline>Implement proper error handling and loading states for async operations</guideline>
+    <guideline>Use Zod for runtime type validation of environment variables and user inputs</guideline>
+    <guideline>Maintain type safety across Convex backend and Next.js frontend with generated types</guideline>
+    <guideline>Use class-variance-authority (cva) for component variant management</guideline>
+    <guideline>Implement proper accessibility with ARIA labels and semantic HTML</guideline>
+  </development_guidelines>
+
+  <implementation_roadmap>
+    <phase>
+      <name>Foundation Setup</name>
+      <status>completed</status>
+      <description>Project scaffolded with Better-T-Stack, Next.js 16, React 19, TypeScript, TailwindCSS 4, shadcn/ui, Turborepo monorepo structure, and development environment configured</description>
+    </phase>
+    <phase>
+      <name>Authentication &amp; Backend</name>
+      <status>completed</status>
+      <description>Clerk authentication integrated with Convex backend, JWT configuration established, protected routes implemented, and health check endpoints deployed</description>
+    </phase>
+    <phase>
+      <name>UI Framework &amp; Theming</name>
+      <status>completed</status>
+      <description>shadcn/ui component library integrated, Radix UI Mira theme applied, dark/light mode toggle implemented, OKLCH color system configured, and responsive layout established</description>
+    </phase>
+    <phase>
+      <name>PWA Configuration</name>
+      <status>completed</status>
+      <description>Progressive Web App manifest configured, app icons generated, standalone display mode set up, and service worker infrastructure prepared</description>
+    </phase>
+    <phase>
+      <name>Video Processing Core</name>
+      <status>pending</status>
+      <description>Implement client-side video upload, parsing, and editing capabilities using MediaRecorder API, Web Audio API, and create video/audio stream processing pipeline</description>
+    </phase>
+    <phase>
+      <name>Filler Word Detection</name>
+      <status>pending</status>
+      <description>Develop AI-powered or pattern-based filler word detection system (um, uh, like, you know, etc.) with audio analysis and timestamp extraction</description>
+    </phase>
+    <phase>
+      <name>Silence Detection</name>
+      <status>pending</status>
+      <description>Implement prolonged silence/pause detection using audio amplitude analysis with configurable threshold and minimum duration settings</description>
+    </phase>
+    <phase>
+      <name>Auto-Cut Functionality</name>
+      <status>pending</status>
+      <description>Build automatic removal system for detected filler words and silence segments with smooth transitions and video timeline reconstruction</description>
+    </phase>
+    <phase>
+      <name>IndexedDB Caching</name>
+      <status>pending</status>
+      <description>Implement IndexedDB storage for video files, processing cache, and offline functionality to store project data and processed outputs</description>
+    </phase>
+    <phase>
+      <name>Export System</name>
+      <status>pending</status>
+      <description>Create export functionality for video-only, audio-only, and combined outputs using MediaRecorder API with various format and quality options</description>
+    </phase>
+    <phase>
+      <name>Service Worker Implementation</name>
+      <status>pending</status>
+      <description>Develop custom service worker for advanced PWA capabilities including asset caching, offline video processing queue, and background sync</description>
+    </phase>
+    <phase>
+      <name>Performance Optimization</name>
+      <status>pending</status>
+      <description>Optimize video processing performance with Web Workers, chunked processing, and memory management for large video files</description>
+    </phase>
+    <phase>
+      <name>Testing &amp; Deployment</name>
+      <status>pending</status>
+      <description>Comprehensive testing of video processing pipeline, PWA functionality, offline mode, and production deployment with Convex and static hosting</description>
+    </phase>
+  </implementation_roadmap>
+</project_specification>

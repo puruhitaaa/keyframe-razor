@@ -1,0 +1,14 @@
+{
+  "id": "monitoring-dashboard",
+  "category": "API",
+  "title": "Admin Monitoring Dashboard",
+  "description": "Build admin dashboard for monitoring app health, user metrics, error rates, and performance indicators.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "analytics-tracking"
+  ],
+  "createdAt": "2026-01-17T00:26:14.376Z",
+  "updatedAt": "2026-01-17T00:26:14.376Z"
+}

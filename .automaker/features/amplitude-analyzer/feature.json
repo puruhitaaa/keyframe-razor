@@ -1,0 +1,14 @@
+{
+  "id": "amplitude-analyzer",
+  "category": "Core",
+  "title": "Audio Amplitude Analyzer",
+  "description": "Implement amplitude analysis across audio buffers to detect volume levels. Calculate RMS values for configurable time windows.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "moderate",
+  "dependencies": [
+    "audio-extractor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.205Z",
+  "updatedAt": "2026-01-17T00:26:14.205Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "segment-merge",
+  "category": "Core",
+  "title": "Adjacent Segment Merge",
+  "description": "Allow merging adjacent segments of the same type. Useful when auto-detection creates many small consecutive segments.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "segment-split"
+  ],
+  "createdAt": "2026-01-17T00:26:14.305Z",
+  "updatedAt": "2026-01-17T00:26:14.305Z"
+}

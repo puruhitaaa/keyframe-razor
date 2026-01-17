@@ -1,0 +1,14 @@
+{
+  "id": "import-export-settings",
+  "category": "Core",
+  "title": "Settings Import/Export",
+  "description": "Allow users to export their settings and templates as JSON files. Import settings on other devices or for backup.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "project-templates"
+  ],
+  "createdAt": "2026-01-17T00:26:14.311Z",
+  "updatedAt": "2026-01-17T00:26:14.311Z"
+}

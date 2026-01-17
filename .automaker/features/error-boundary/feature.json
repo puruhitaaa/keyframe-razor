@@ -1,0 +1,12 @@
+{
+  "id": "error-boundary",
+  "category": "Core",
+  "title": "React Error Boundary",
+  "description": "Implement error boundaries around major components. Catch and log errors gracefully with user-friendly error messages.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.271Z",
+  "updatedAt": "2026-01-17T00:26:14.271Z"
+}

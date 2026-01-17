@@ -1,0 +1,15 @@
+{
+  "id": "filler-word-detector",
+  "category": "Core",
+  "title": "Filler Word Detection Engine",
+  "description": "Scan transcribed text for filler words and map occurrences back to video timestamps. Use fuzzy matching for variations.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "speech-recognition-integration",
+    "filler-word-list"
+  ],
+  "createdAt": "2026-01-17T00:26:14.221Z",
+  "updatedAt": "2026-01-17T00:26:14.221Z"
+}

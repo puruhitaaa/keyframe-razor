@@ -1,0 +1,15 @@
+{
+  "id": "segment-preview",
+  "category": "UI",
+  "title": "Segment Preview Playback",
+  "description": "Enable clicking on any segment to preview that specific portion in the video player. Highlight segment during playback.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-list-view",
+    "video-player-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.225Z",
+  "updatedAt": "2026-01-17T00:26:14.225Z"
+}

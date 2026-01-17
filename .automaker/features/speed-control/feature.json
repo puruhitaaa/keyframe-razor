@@ -1,0 +1,14 @@
+{
+  "id": "speed-control",
+  "category": "UI",
+  "title": "Playback Speed Control",
+  "description": "Add variable playback speed controls (0.5x, 1x, 1.5x, 2x) for video player. Helpful for reviewing content quickly.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "video-player-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.320Z",
+  "updatedAt": "2026-01-17T00:26:14.320Z"
+}
