@@ -3,10 +3,13 @@
   "category": "Core",
   "title": "MediaRecorder Wrapper",
   "description": "Create a wrapper around MediaRecorder API with error handling, format support detection, and browser compatibility checks.",
-  "status": "backlog",
+  "status": "completed",
   "priority": 1,
   "complexity": "moderate",
   "dependencies": [],
   "createdAt": "2026-01-17T00:26:14.233Z",
-  "updatedAt": "2026-01-17T00:26:14.233Z"
+  "updatedAt": "2026-01-17T01:12:52.470Z",
+  "branchName": "dev",
+  "descriptionHistory": [],
+  "startedAt": "2026-01-17T00:59:39.140Z"
 }

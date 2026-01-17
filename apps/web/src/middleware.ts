@@ -1,6 +1,14 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-export default clerkMiddleware();
+// Define public routes
+const isPublicRoute = createRouteMatcher(["/video-upload"]);
+
+export default clerkMiddleware((auth, request) => {
+  if (isPublicRoute(request)) {
+    // Allow public access without authentication
+    return;
+  }
+});
 
 export const config = {
   matcher: [

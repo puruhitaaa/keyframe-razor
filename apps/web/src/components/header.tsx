@@ -10,12 +10,21 @@ export default function Header() {
   ] as const;
 
   return (
-    <div>
+    <header>
       <div className="flex flex-row items-center justify-between px-2 py-1">
-        <nav className="flex gap-4 text-lg">
+        <nav
+          id="main-navigation"
+          aria-label="Main navigation"
+          className="flex gap-4 text-lg"
+        >
           {links.map(({ to, label }) => {
             return (
-              <Link key={to} href={to}>
+              <Link
+                key={to}
+                href={to}
+                aria-current={to === "/" ? "page" : undefined}
+                className="hover:underline focus:outline-none focus:ring-2 focus:ring-ring focus:rounded-md px-2 py-1"
+              >
                 {label}
               </Link>
             );
@@ -25,7 +34,7 @@ export default function Header() {
           <ModeToggle />
         </div>
       </div>
-      <hr />
-    </div>
+      <hr aria-hidden="true" />
+    </header>
   );
 }

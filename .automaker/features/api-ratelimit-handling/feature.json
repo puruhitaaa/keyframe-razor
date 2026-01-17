@@ -3,10 +3,13 @@
   "category": "API",
   "title": "API Rate Limiting",
   "description": "Implement rate limiting for Convex API calls. Handle 429 responses gracefully with exponential backoff.",
-  "status": "backlog",
+  "status": "completed",
   "priority": 2,
   "complexity": "simple",
   "dependencies": [],
   "createdAt": "2026-01-17T00:26:14.352Z",
-  "updatedAt": "2026-01-17T00:26:14.352Z"
+  "updatedAt": "2026-01-17T02:16:06.717Z",
+  "branchName": "dev",
+  "descriptionHistory": [],
+  "startedAt": "2026-01-17T02:10:45.109Z"
 }

@@ -5,8 +5,19 @@ import { env } from "@keyframe-razor/env/web";
 import { ConvexReactClient } from "convex/react";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
 
+import { initializeRateLimiter } from "@/lib/convex-rate-limiter";
+
 import { ThemeProvider } from "./theme-provider";
 import { Toaster } from "./ui/sonner";
+
+// Initialize the rate limiter with configuration
+initializeRateLimiter({
+  maxRetries: 5,
+  initialDelay: 1000,
+  backoffMultiplier: 2,
+  maxDelay: 30000,
+  debug: false,
+});
 
 const convex = new ConvexReactClient(env.NEXT_PUBLIC_CONVEX_URL);
 

@@ -10,6 +10,7 @@
 
 import type * as healthCheck from "../healthCheck.js";
 import type * as privateData from "../privateData.js";
+import type * as projects from "../projects.js";
 
 import type {
   ApiFromModules,
@@ -20,6 +21,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   healthCheck: typeof healthCheck;
   privateData: typeof privateData;
+  projects: typeof projects;
 }>;
 
 /**
