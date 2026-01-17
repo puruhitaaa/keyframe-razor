@@ -1,0 +1,15 @@
+{
+  "id": "smart-detection",
+  "category": "Core",
+  "title": "Smart Detection Profiles",
+  "description": "Create detection profiles for different content types (podcast, lecture, interview, vlog). Auto-adjust detection settings.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "silence-detection-engine",
+    "filler-word-detector"
+  ],
+  "createdAt": "2026-01-17T00:26:14.349Z",
+  "updatedAt": "2026-01-17T00:26:14.349Z"
+}

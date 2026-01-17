@@ -1,0 +1,12 @@
+{
+  "id": "reduced-motion-support",
+  "category": "UI",
+  "title": "Reduced Motion Support",
+  "description": "Respect prefers-reduced-motion media query. Disable animations and transitions for users who prefer reduced motion.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.282Z",
+  "updatedAt": "2026-01-17T00:26:14.282Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "offline-project-list",
+  "category": "Core",
+  "title": "Offline Project Access",
+  "description": "Enable viewing and editing previously loaded projects when offline. Store project list and data in IndexedDB.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "project-autosave",
+    "offline-indicator"
+  ],
+  "createdAt": "2026-01-17T00:26:14.268Z",
+  "updatedAt": "2026-01-17T00:26:14.268Z"
+}

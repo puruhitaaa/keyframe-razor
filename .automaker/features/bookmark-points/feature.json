@@ -1,0 +1,14 @@
+{
+  "id": "bookmark-points",
+  "category": "UI",
+  "title": "Video Bookmark Points",
+  "description": "Let users add bookmark points on timeline for quick navigation. Display as markers with labels.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "timeline-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.306Z",
+  "updatedAt": "2026-01-17T00:26:14.306Z"
+}

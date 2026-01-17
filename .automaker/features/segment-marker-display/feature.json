@@ -1,0 +1,15 @@
+{
+  "id": "segment-marker-display",
+  "category": "UI",
+  "title": "Detected Segments Marker Display",
+  "description": "Visualize detected silence and filler word segments on the timeline with color-coded markers. Show segment details on hover.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "timeline-component",
+    "silence-detection-engine"
+  ],
+  "createdAt": "2026-01-17T00:26:14.214Z",
+  "updatedAt": "2026-01-17T00:26:14.214Z"
+}

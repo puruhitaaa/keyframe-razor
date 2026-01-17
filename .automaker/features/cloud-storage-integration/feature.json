@@ -1,0 +1,14 @@
+{
+  "id": "cloud-storage-integration",
+  "category": "API",
+  "title": "Cloud Storage Integration",
+  "description": "Optional integration with cloud storage providers (Google Drive, Dropbox) for direct export and backup of projects.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.351Z",
+  "updatedAt": "2026-01-17T00:26:14.351Z"
+}

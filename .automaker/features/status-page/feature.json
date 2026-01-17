@@ -1,0 +1,12 @@
+{
+  "id": "status-page",
+  "category": "API",
+  "title": "Service Status Page",
+  "description": "Create public status page showing Convex, authentication, and other service availability. Historical uptime data.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.375Z",
+  "updatedAt": "2026-01-17T00:26:14.375Z"
+}

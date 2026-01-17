@@ -1,0 +1,14 @@
+{
+  "id": "error-reporting",
+  "category": "Core",
+  "title": "Error Reporting System",
+  "description": "Create centralized error handling and reporting. Log errors to console and optionally send to error tracking service.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "error-boundary"
+  ],
+  "createdAt": "2026-01-17T00:26:14.272Z",
+  "updatedAt": "2026-01-17T00:26:14.272Z"
+}

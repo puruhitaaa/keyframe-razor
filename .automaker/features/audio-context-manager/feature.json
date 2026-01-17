@@ -1,0 +1,15 @@
+{
+  "id": "audio-context-manager",
+  "category": "Core",
+  "title": "Web Audio Context Manager",
+  "description": "Create a singleton manager for Web Audio Context initialization and lifecycle. Handle browser autoplay restrictions properly.",
+  "status": "completed",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.202Z",
+  "updatedAt": "2026-01-17T00:59:00.981Z",
+  "branchName": "dev",
+  "descriptionHistory": [],
+  "startedAt": "2026-01-17T00:44:36.293Z"
+}

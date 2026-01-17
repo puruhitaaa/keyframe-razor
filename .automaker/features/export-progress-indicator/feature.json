@@ -1,0 +1,14 @@
+{
+  "id": "export-progress-indicator",
+  "category": "UI",
+  "title": "Export Progress Indicator",
+  "description": "Show real-time progress bar and percentage during export operations. Display estimated time remaining.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.239Z",
+  "updatedAt": "2026-01-17T00:26:14.239Z"
+}

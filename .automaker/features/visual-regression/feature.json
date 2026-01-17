@@ -1,0 +1,12 @@
+{
+  "id": "visual-regression",
+  "category": "Core",
+  "title": "Visual Regression Testing",
+  "description": "Implement visual regression testing for UI components. Catch unintended visual changes during development.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.370Z",
+  "updatedAt": "2026-01-17T00:26:14.370Z"
+}

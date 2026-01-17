@@ -1,0 +1,15 @@
+{
+  "id": "storage-usage-display",
+  "category": "UI",
+  "title": "IndexedDB Storage Usage",
+  "description": "Display IndexedDB storage usage in settings. Show breakdown by project and provide cleanup options for old projects.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "settings-page",
+    "indexeddb-video-storage"
+  ],
+  "createdAt": "2026-01-17T00:26:14.260Z",
+  "updatedAt": "2026-01-17T00:26:14.260Z"
+}

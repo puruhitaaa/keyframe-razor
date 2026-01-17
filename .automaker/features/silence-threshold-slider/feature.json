@@ -1,0 +1,14 @@
+{
+  "id": "silence-threshold-slider",
+  "category": "UI",
+  "title": "Silence Threshold Slider",
+  "description": "Implement an adjustable slider for silence detection threshold in decibels. Show real-time feedback of detected segments.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "silence-detection-toggle"
+  ],
+  "createdAt": "2026-01-17T00:26:14.212Z",
+  "updatedAt": "2026-01-17T00:26:14.212Z"
+}

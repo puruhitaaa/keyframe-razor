@@ -1,0 +1,14 @@
+{
+  "id": "export-history",
+  "category": "Database",
+  "title": "Export History Tracking",
+  "description": "Track all exports with timestamp, settings, and file size. Store in Convex for user reference and re-export capability.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.291Z",
+  "updatedAt": "2026-01-17T00:26:14.291Z"
+}

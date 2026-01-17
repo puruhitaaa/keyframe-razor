@@ -1,0 +1,14 @@
+{
+  "id": "segment-selection",
+  "category": "UI",
+  "title": "Individual Segment Selection",
+  "description": "Allow users to select/deselect individual detected segments for removal. Support select all/deselect all bulk actions.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-list-view"
+  ],
+  "createdAt": "2026-01-17T00:26:14.226Z",
+  "updatedAt": "2026-01-17T00:26:14.226Z"
+}

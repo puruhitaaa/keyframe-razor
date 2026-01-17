@@ -1,0 +1,14 @@
+{
+  "id": "session-timeout",
+  "category": "Authentication",
+  "title": "Session Timeout Handling",
+  "description": "Detect and handle session timeouts gracefully. Show reauthentication modal and preserve unsaved work.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "refresh-token-handling"
+  ],
+  "createdAt": "2026-01-17T00:26:14.354Z",
+  "updatedAt": "2026-01-17T00:26:14.354Z"
+}

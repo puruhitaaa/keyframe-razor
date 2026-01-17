@@ -1,0 +1,14 @@
+{
+  "id": "sample-video-demo",
+  "category": "Core",
+  "title": "Sample Demo Video",
+  "description": "Include a short sample video for users to try the app without uploading. Pre-loaded with detectable filler words and silences.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "video-upload-zone"
+  ],
+  "createdAt": "2026-01-17T00:26:14.285Z",
+  "updatedAt": "2026-01-17T00:26:14.285Z"
+}

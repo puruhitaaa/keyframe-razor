@@ -1,0 +1,14 @@
+{
+  "id": "silence-min-duration-slider",
+  "category": "UI",
+  "title": "Minimum Silence Duration Slider",
+  "description": "Add slider control for minimum silence duration to ignore brief pauses. Range from 0.1 to 2 seconds.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "silence-detection-toggle"
+  ],
+  "createdAt": "2026-01-17T00:26:14.213Z",
+  "updatedAt": "2026-01-17T00:26:14.213Z"
+}

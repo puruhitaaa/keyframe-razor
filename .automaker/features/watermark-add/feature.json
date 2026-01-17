@@ -1,0 +1,14 @@
+{
+  "id": "watermark-add",
+  "category": "Core",
+  "title": "Watermark Overlay",
+  "description": "Add optional watermark overlay to exported videos. Support custom text, position, and opacity settings.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.315Z",
+  "updatedAt": "2026-01-17T00:26:14.315Z"
+}

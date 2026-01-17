@@ -1,0 +1,14 @@
+{
+  "id": "crash-recovery",
+  "category": "Core",
+  "title": "Crash Recovery",
+  "description": "Implement automatic recovery after browser crashes. Restore previous session state and warn about unsaved changes.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "progress-persistence"
+  ],
+  "createdAt": "2026-01-17T00:26:14.342Z",
+  "updatedAt": "2026-01-17T00:26:14.342Z"
+}

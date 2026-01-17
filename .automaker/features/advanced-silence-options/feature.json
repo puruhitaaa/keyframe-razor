@@ -1,0 +1,14 @@
+{
+  "id": "advanced-silence-options",
+  "category": "Core",
+  "title": "Advanced Silence Detection",
+  "description": "Add sophisticated silence detection with frequency filtering, noise gating, and adaptive threshold adjustment.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "silence-detection-engine"
+  ],
+  "createdAt": "2026-01-17T00:26:14.347Z",
+  "updatedAt": "2026-01-17T00:26:14.347Z"
+}

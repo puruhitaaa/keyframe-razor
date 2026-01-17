@@ -1,0 +1,14 @@
+{
+  "id": "custom-fillers-input",
+  "category": "UI",
+  "title": "Custom Filler Words Input",
+  "description": "Provide UI for users to add custom filler words to detect. Support comma-separated input with tag-style display.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "filler-word-list"
+  ],
+  "createdAt": "2026-01-17T00:26:14.223Z",
+  "updatedAt": "2026-01-17T00:26:14.223Z"
+}

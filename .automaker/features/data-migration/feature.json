@@ -1,0 +1,12 @@
+{
+  "id": "data-migration",
+  "category": "Database",
+  "title": "Data Migration Scripts",
+  "description": "Create migration system for IndexedDB and Convex schema changes. Handle version upgrades and data transformations.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.378Z",
+  "updatedAt": "2026-01-17T00:26:14.378Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "volume-meter",
+  "category": "UI",
+  "title": "Volume Level Meter",
+  "description": "Display real-time volume meter during playback. Help users identify loud and quiet sections visually.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "amplitude-analyzer"
+  ],
+  "createdAt": "2026-01-17T00:26:14.324Z",
+  "updatedAt": "2026-01-17T00:26:14.324Z"
+}

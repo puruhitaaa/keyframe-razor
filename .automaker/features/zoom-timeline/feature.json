@@ -1,0 +1,14 @@
+{
+  "id": "zoom-timeline",
+  "category": "UI",
+  "title": "Timeline Zoom Controls",
+  "description": "Add zoom in/out functionality for timeline to show more or less detail. Implement with scroll wheel and buttons.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "timeline-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.297Z",
+  "updatedAt": "2026-01-17T00:26:14.297Z"
+}

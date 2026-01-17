@@ -1,0 +1,12 @@
+{
+  "id": "feedback-widget",
+  "category": "UI",
+  "title": "User Feedback Widget",
+  "description": "Add feedback widget for bug reports and feature requests. Capture screenshots and context automatically.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.360Z",
+  "updatedAt": "2026-01-17T00:26:14.360Z"
+}

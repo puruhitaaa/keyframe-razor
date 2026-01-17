@@ -1,0 +1,14 @@
+{
+  "id": "beta-features",
+  "category": "Core",
+  "title": "Beta Features Program",
+  "description": "Implement beta features toggle system. Allow users to opt-in to experimental features with feedback collection.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "settings-page"
+  ],
+  "createdAt": "2026-01-17T00:26:14.362Z",
+  "updatedAt": "2026-01-17T00:26:14.362Z"
+}

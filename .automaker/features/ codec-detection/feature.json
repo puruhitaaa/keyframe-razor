@@ -1,0 +1,14 @@
+{
+  "id": "codec-detection",
+  "category": "Core",
+  "title": "Codec Compatibility Detection",
+  "description": "Detect browser codec support for recording and playback. Warn users about incompatible formats and suggest alternatives.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "media-recorder-wrapper"
+  ],
+  "createdAt": "2026-01-17T00:26:14.341Z",
+  "updatedAt": "2026-01-17T00:26:14.341Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "shortcuts-help-modal",
+  "category": "UI",
+  "title": "Keyboard Shortcuts Help",
+  "description": "Create a help modal displaying all available keyboard shortcuts. Show on first visit and accessible via ? key.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "keyboard-shortcuts"
+  ],
+  "createdAt": "2026-01-17T00:26:14.257Z",
+  "updatedAt": "2026-01-17T00:26:14.257Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "download-manager",
+  "category": "Core",
+  "title": "Download Manager",
+  "description": "Handle triggering browser downloads for exported files. Generate descriptive filenames with timestamps.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [
+    "video-audio-exporter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.242Z",
+  "updatedAt": "2026-01-17T00:26:14.242Z"
+}

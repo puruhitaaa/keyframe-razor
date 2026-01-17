@@ -1,0 +1,47 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.31.5",
+    "@keyframe-razor/backend": "workspace:*",
+    "@keyframe-razor/env": "workspace:*",
+    "@radix-ui/react-alert-dialog": "^1.1.15",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-radio-group": "^1.3.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@tanstack/react-form": "^1.27.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "convex": "catalog:",
+    "date-fns": "^4.1.0",
+    "dotenv": "catalog:",
+    "lucide-react": "^0.546.0",
+    "next": "^16.1.1",
+    "next-themes": "^0.4.6",
+    "radix-ui": "^1.4.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "shadcn": "^3.6.2",
+    "sonner": "^2.0.5",
+    "tailwind-merge": "^3.3.1",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@keyframe-razor/config": "workspace:*",
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^20",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.10",
+    "tw-animate-css": "^1.3.4",
+    "typescript": "catalog:"
+  }
+}

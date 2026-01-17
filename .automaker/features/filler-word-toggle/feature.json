@@ -1,0 +1,14 @@
+{
+  "id": "filler-word-toggle",
+  "category": "UI",
+  "title": "Filler Word Detection Toggle",
+  "description": "Add toggle switch to enable/disable filler word detection. Combine with silence detection for comprehensive auto-editing.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "filler-word-detector"
+  ],
+  "createdAt": "2026-01-17T00:26:14.222Z",
+  "updatedAt": "2026-01-17T00:26:14.222Z"
+}

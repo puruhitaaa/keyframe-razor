@@ -1,0 +1,14 @@
+{
+  "id": "rollback-mechanism",
+  "category": "API",
+  "title": "Deployment Rollback",
+  "description": "Implement automated rollback mechanism for failed deployments. Monitor health and revert automatically on issues.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "deployment-pipeline"
+  ],
+  "createdAt": "2026-01-17T00:26:14.373Z",
+  "updatedAt": "2026-01-17T00:26:14.373Z"
+}

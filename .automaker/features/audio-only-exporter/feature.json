@@ -1,0 +1,15 @@
+{
+  "id": "audio-only-exporter",
+  "category": "Core",
+  "title": "Audio-Only Exporter",
+  "description": "Export only the audio track from processed video. Support WAV, MP3, and other common audio formats.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "audio-extractor",
+    "video-segment-cutter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.236Z",
+  "updatedAt": "2026-01-17T00:26:14.236Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "video-thumbnail-generator",
+  "category": "Core",
+  "title": "Video Thumbnail Generator",
+  "description": "Generate thumbnails from video frames at multiple timestamps. Store in IndexedDB and display in project list.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "video-metadata-extractor"
+  ],
+  "createdAt": "2026-01-17T00:26:14.251Z",
+  "updatedAt": "2026-01-17T00:26:14.251Z"
+}

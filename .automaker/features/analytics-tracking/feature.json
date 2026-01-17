@@ -1,0 +1,12 @@
+{
+  "id": "analytics-tracking",
+  "category": "API",
+  "title": "Usage Analytics",
+  "description": "Track anonymous usage analytics to understand feature adoption. Monitor exports, detection usage, and common workflows.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.312Z",
+  "updatedAt": "2026-01-17T00:26:14.312Z"
+}

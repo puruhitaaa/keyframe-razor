@@ -1,0 +1,14 @@
+{
+  "id": "project-templates",
+  "category": "Core",
+  "title": "Project Templates",
+  "description": "Create reusable project templates with pre-configured detection settings. Apply to new projects for consistent workflows.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "settings-page"
+  ],
+  "createdAt": "2026-01-17T00:26:14.310Z",
+  "updatedAt": "2026-01-17T00:26:14.310Z"
+}

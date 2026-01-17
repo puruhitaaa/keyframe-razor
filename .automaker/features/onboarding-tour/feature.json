@@ -1,0 +1,12 @@
+{
+  "id": "onboarding-tour",
+  "category": "UI",
+  "title": "First-Time User Onboarding",
+  "description": "Create an interactive tour highlighting key features for new users. Show guided walkthrough with tooltips and step progression.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.284Z",
+  "updatedAt": "2026-01-17T00:26:14.284Z"
+}

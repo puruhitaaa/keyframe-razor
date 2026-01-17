@@ -1,0 +1,3 @@
+{
+  "extends": "@keyframe-razor/config/tsconfig.base.json"
+}

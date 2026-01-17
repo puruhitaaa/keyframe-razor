@@ -1,0 +1,14 @@
+{
+  "id": "mobile-optimizations",
+  "category": "UI",
+  "title": "Mobile UX Optimizations",
+  "description": "Optimize touch interactions for mobile devices. Add swipe gestures for timeline navigation and mobile-friendly controls.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "responsive-video-player"
+  ],
+  "createdAt": "2026-01-17T00:26:14.280Z",
+  "updatedAt": "2026-01-17T00:26:14.280Z"
+}

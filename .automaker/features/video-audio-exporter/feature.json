@@ -1,0 +1,15 @@
+{
+  "id": "video-audio-exporter",
+  "category": "Core",
+  "title": "Video with Audio Exporter",
+  "description": "Implement export functionality for processed video with audio track using MediaRecorder. Support multiple output formats.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "complex",
+  "dependencies": [
+    "media-recorder-wrapper",
+    "video-segment-cutter"
+  ],
+  "createdAt": "2026-01-17T00:26:14.234Z",
+  "updatedAt": "2026-01-17T00:26:14.234Z"
+}

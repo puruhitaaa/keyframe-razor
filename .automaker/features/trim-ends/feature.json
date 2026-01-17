@@ -1,0 +1,14 @@
+{
+  "id": "trim-ends",
+  "category": "Core",
+  "title": "Trim Video Start/End",
+  "description": "Add handles to trim the beginning and end of videos independently of segment detection. Clean up video starts/ends.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "manual-segment-marking"
+  ],
+  "createdAt": "2026-01-17T00:26:14.319Z",
+  "updatedAt": "2026-01-17T00:26:14.319Z"
+}

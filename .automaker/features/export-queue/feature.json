@@ -1,0 +1,14 @@
+{
+  "id": "export-queue",
+  "category": "Core",
+  "title": "Export Queue Management",
+  "description": "Implement queue system for multiple export requests. Allow prioritizing, cancelling, and monitoring queue status.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "batch-export"
+  ],
+  "createdAt": "2026-01-17T00:26:14.350Z",
+  "updatedAt": "2026-01-17T00:26:14.350Z"
+}

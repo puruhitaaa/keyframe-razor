@@ -1,0 +1,14 @@
+{
+  "id": "deployment-pipeline",
+  "category": "API",
+  "title": "CI/CD Pipeline",
+  "description": "Set up automated deployment pipeline with GitHub Actions. Run tests, linting, and deploy on merge.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "moderate",
+  "dependencies": [
+    "test-coverage"
+  ],
+  "createdAt": "2026-01-17T00:26:14.372Z",
+  "updatedAt": "2026-01-17T00:26:14.372Z"
+}

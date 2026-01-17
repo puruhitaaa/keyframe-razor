@@ -1,0 +1,14 @@
+{
+  "id": "loop-region",
+  "category": "UI",
+  "title": "Loop Playback Region",
+  "description": "Enable setting start and end points for looped playback. Useful for reviewing specific sections repeatedly.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "video-player-component"
+  ],
+  "createdAt": "2026-01-17T00:26:14.321Z",
+  "updatedAt": "2026-01-17T00:26:14.321Z"
+}

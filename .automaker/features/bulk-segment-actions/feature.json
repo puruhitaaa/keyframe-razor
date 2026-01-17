@@ -1,0 +1,14 @@
+{
+  "id": "bulk-segment-actions",
+  "category": "UI",
+  "title": "Bulk Segment Actions",
+  "description": "Add bulk actions for segments like select all by type, select long/short segments, or select by duration range.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "segment-selection"
+  ],
+  "createdAt": "2026-01-17T00:26:14.331Z",
+  "updatedAt": "2026-01-17T00:26:14.331Z"
+}

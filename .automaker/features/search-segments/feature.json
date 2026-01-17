@@ -1,0 +1,14 @@
+{
+  "id": "search-segments",
+  "category": "UI",
+  "title": "Segment Search/Filter",
+  "description": "Add search and filter functionality for segments. Filter by type, duration, or text content (for filler words).",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "segment-list-view"
+  ],
+  "createdAt": "2026-01-17T00:26:14.329Z",
+  "updatedAt": "2026-01-17T00:26:14.329Z"
+}

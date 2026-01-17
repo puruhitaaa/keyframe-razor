@@ -1,0 +1,14 @@
+{
+  "id": "pwa-install-prompt",
+  "category": "UI",
+  "title": "PWA Install Prompt",
+  "description": "Detect PWA installability and show custom install button. Handle beforeinstallprompt event for better UX.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "service-worker-registration"
+  ],
+  "createdAt": "2026-01-17T00:26:14.269Z",
+  "updatedAt": "2026-01-17T00:26:14.269Z"
+}

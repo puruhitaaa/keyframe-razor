@@ -1,0 +1,12 @@
+{
+  "id": "filler-word-list",
+  "category": "Core",
+  "title": "Filler Word Configuration",
+  "description": "Create a configurable list of filler words and phrases (um, uh, like, you know, basically, actually). Allow user customization.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.220Z",
+  "updatedAt": "2026-01-17T00:26:14.220Z"
+}

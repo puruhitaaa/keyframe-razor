@@ -1,0 +1,14 @@
+{
+  "id": "collaborative-editing",
+  "category": "API",
+  "title": "Real-time Collaborative Editing",
+  "description": "Enable multiple users to edit same project simultaneously using Convex real-time updates. Show cursors and changes.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "project-share-link"
+  ],
+  "createdAt": "2026-01-17T00:26:14.343Z",
+  "updatedAt": "2026-01-17T00:26:14.343Z"
+}

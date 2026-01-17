@@ -1,0 +1,14 @@
+{
+  "id": "transcript-storage",
+  "category": "Database",
+  "title": "Transcript IndexedDB Storage",
+  "description": "Store transcribed text with timestamps in IndexedDB for quick retrieval. Enable caching of transcription results.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [
+    "indexeddb-video-storage"
+  ],
+  "createdAt": "2026-01-17T00:26:14.218Z",
+  "updatedAt": "2026-01-17T00:26:14.219Z"
+}

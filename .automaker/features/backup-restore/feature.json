@@ -1,0 +1,14 @@
+{
+  "id": "backup-restore",
+  "category": "Database",
+  "title": "Data Backup & Restore",
+  "description": "Implement backup and restore functionality for user data. Export all projects and settings for disaster recovery.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "data-migration"
+  ],
+  "createdAt": "2026-01-17T00:26:14.379Z",
+  "updatedAt": "2026-01-17T00:26:14.379Z"
+}

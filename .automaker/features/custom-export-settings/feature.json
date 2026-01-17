@@ -1,0 +1,14 @@
+{
+  "id": "custom-export-settings",
+  "category": "Core",
+  "title": "Custom Export Settings",
+  "description": "Allow advanced users to configure custom export settings including bitrate, resolution, frame rate, and codec options.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "moderate",
+  "dependencies": [
+    "export-quality-presets"
+  ],
+  "createdAt": "2026-01-17T00:26:14.288Z",
+  "updatedAt": "2026-01-17T00:26:14.288Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "export-complete-toast",
+  "category": "UI",
+  "title": "Export Completion Notification",
+  "description": "Display toast notification using Sonner when export completes. Include download button and file size information.",
+  "status": "backlog",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [
+    "export-progress-indicator"
+  ],
+  "createdAt": "2026-01-17T00:26:14.240Z",
+  "updatedAt": "2026-01-17T00:26:14.240Z"
+}

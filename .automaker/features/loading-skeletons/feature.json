@@ -1,0 +1,12 @@
+{
+  "id": "loading-skeletons",
+  "category": "UI",
+  "title": "Loading Skeleton Components",
+  "description": "Add skeleton loading states using shadcn/ui skeleton component for all async operations. Improve perceived performance.",
+  "status": "backlog",
+  "priority": 2,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.270Z",
+  "updatedAt": "2026-01-17T00:26:14.270Z"
+}

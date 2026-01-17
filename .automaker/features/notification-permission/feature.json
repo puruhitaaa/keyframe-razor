@@ -1,0 +1,14 @@
+{
+  "id": "notification-permission",
+  "category": "Core",
+  "title": "Export Complete Notification",
+  "description": "Request notification permission and send system notification when long exports complete in background tab.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "simple",
+  "dependencies": [
+    "background-processing"
+  ],
+  "createdAt": "2026-01-17T00:26:14.338Z",
+  "updatedAt": "2026-01-17T00:26:14.338Z"
+}

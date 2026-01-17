@@ -1,0 +1,15 @@
+{
+  "id": "export-options-modal",
+  "category": "UI",
+  "title": "Export Options Modal",
+  "description": "Create a modal for export configuration including format selection (video+audio, audio-only, video-only), quality preset, and output format.",
+  "status": "completed",
+  "priority": 1,
+  "complexity": "simple",
+  "dependencies": [],
+  "createdAt": "2026-01-17T00:26:14.231Z",
+  "updatedAt": "2026-01-17T01:04:05.531Z",
+  "branchName": "dev",
+  "descriptionHistory": [],
+  "startedAt": "2026-01-17T00:44:39.682Z"
+}

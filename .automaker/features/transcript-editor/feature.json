@@ -1,0 +1,14 @@
+{
+  "id": "transcript-editor",
+  "category": "UI",
+  "title": "Transcript Editor",
+  "description": "Display editable transcript synced with video playback. Allow users to manually correct transcription and adjust filler word detection.",
+  "status": "backlog",
+  "priority": 3,
+  "complexity": "complex",
+  "dependencies": [
+    "speech-recognition-integration"
+  ],
+  "createdAt": "2026-01-17T00:26:14.301Z",
+  "updatedAt": "2026-01-17T00:26:14.301Z"
+}
